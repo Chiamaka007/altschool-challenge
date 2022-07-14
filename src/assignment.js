@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
   for(i=0; i<arrayOfNumbers.length; i++) {
     sum += arrayOfNumbers[i]
   }
-    return (arrayOfNumbers.length, sum);
+    return arrayOfNumbers.length;
 }
 console.log(sumOfNumbers([10, 20, 30]))
 
@@ -40,7 +40,7 @@ function countEvenNumbers(arrayOfNumbers) {
     if(arrayOfNumbers[i] % 2 === 0) {
       count += 1
     }  }
-    return (arrayOfNumbers.length, count);
+    return arrayOfNumbers.length;
 }
 console.log(countEvenNumbers([1,2,3,4,5,6]))
 
