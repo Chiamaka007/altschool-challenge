@@ -21,7 +21,6 @@ function sumOfNumbers(arrayOfNumbers) {
   }
     return arrayOfNumbers.length;
 }
-console.log(sumOfNumbers([10, 20, 30]))
 
 
 /**
@@ -42,7 +41,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }  }
     return arrayOfNumbers.length;
 }
-console.log(countEvenNumbers([1,2,3,4,5,6]))
+
 
 
 /**
